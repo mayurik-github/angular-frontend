@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # AngularFrontend
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.2.
@@ -62,4 +61,3 @@ For more information on using the Angular CLI, including detailed command refere
 # angular-frontend
 =======
 # angular-frontend
->>>>>>> 46619842bb1b812289bf37e3e76a258e1fb92e92
