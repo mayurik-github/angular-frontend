@@ -6,10 +6,10 @@ import { provideClientHydration, withEventReplay } from '@angular/platform-brows
 import { routes } from './app.routes';
 
 export const appConfig: ApplicationConfig = {
-  providers: [
-    provideZoneChangeDetection({ eventCoalescing: true }), // Optimizes change detection
-    provideRouter(routes),                                // Enables routing
-    provideHttpClient(),                                  // Enables HTTP client support
-    provideClientHydration(withEventReplay())             // Enables client hydration with event replay
-  ]
+ providers: [
+  provideZoneChangeDetection({ eventCoalescing: true }), // Optimizes change detection
+  provideRouter(routes),                // Enables routing
+  provideHttpClient(),                 // Enables HTTP client support
+  provideClientHydration(withEventReplay())       // Enables client hydration with event replay
+ ]
 };
